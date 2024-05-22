@@ -1,15 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     background: #0E1323;
     padding: 200px;
 
 }
-.divKutu{
+
+.container {
+
+    max-width: 800px;
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.divKutu {
     grid-row: 1/4;
     width: 255px;
     height: 535px;
@@ -17,31 +32,36 @@ body{
     background: #1C204B;
 
 }
-.kutu1{
+
+.kutu1 {
     width: 255px;
     height: 354px;
     border-radius: 15px;
     background: #5747EA;
 }
-.profil{
+
+.profil {
     width: 171px;
     height: 114px;
 
 }
-.foti1{
+
+.foti1 {
     width: 78px;
-   height: 78px;
-   fill: #D8D8D8;
-   padding: 36px 146px 227px 30px;
+    height: 78px;
+    fill: #D8D8D8;
+    padding: 36px 146px 227px 30px;
 
 }
-p{
+
+p {
     color: #BBC0FF;
-   font-family: Rubik;
-   font-size: 15px;
-   margin: 31px 152px 3px 32px;
+    font-family: Rubik;
+    font-size: 15px;
+    margin: 31px 152px 3px 32px;
 }
-h3{
+
+h3 {
     color: #FFF;
     font-family: Rubik;
     font-size: 40px;
@@ -50,11 +70,13 @@ h3{
     line-height: normal;
     margin: 3px 85px 80px 32px;
 }
-.zaman{
+
+.zaman {
     margin-top: 23px;
     margin-left: 32px;
 }
-.zaman1{
+
+.zaman1 {
     display: block;
     text-decoration: none;
     margin-top: 15px;
@@ -63,7 +85,8 @@ h3{
     font-size: 18px;
     font-weight: 400;
 }
-.ilkSatir{
+
+.ilkSatir {
     display: inline-flex;
     padding-bottom: 1px;
     justify-content: center;
@@ -71,7 +94,8 @@ h3{
     gap: 131px;
     margin: 29px 35px 24px 30px;
 }
-.selfcare{
+
+.selfcare {
     display: inline-flex;
     padding-bottom: 1px;
     justify-content: center;
@@ -80,59 +104,66 @@ h3{
     margin: 29px 35px 24px 30px;
 }
 
-.cizelge{
+.cizelge {
     width: 255px;
     height: 199px;
     border-radius: 15px;
     background: #1C204B;
     position: relative;
-    top: -120px; 
+    top: -120px;
 }
-.cizelge:hover{
+
+.cizelge:hover {
     border-radius: 15px;
     background: #33397A;
 }
-.zaman1:hover{
+
+.zaman1:hover {
     color: #FFF;
 }
+
 /* .ikon:hover{
     ;
     
 } */
 
-h4{
+h4 {
     color: #FFF;
-   font-family: Rubik;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-h1{
+
+h1 {
     color: #FFF;
     font-family: Rubik;
     font-size: 56px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin:0px 81px 8px 30px;
+    margin: 0px 81px 8px 30px;
 
 }
-h5{
+
+h5 {
     color: #BBC0FF;
     font-family: Rubik;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin:8px 100px 32px 30px;
+    margin: 8px 100px 32px 30px;
 
 }
-.ikon2{
+
+.ikon2 {
     position: relative;
-    top: -70px; 
+    top: -70px;
 }
-.bir{
+
+.bir {
     position: relative;
     top: -190px;
 }
